@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+.wrap {width : 100%}
+
+.topinfo{width : 100%; background-color :#9474a5; height : 50px;}
+.topinfo .topinfow{ width : 800px; margin : 0 auto; }
+.topinfo p{ display : inline-block; font-size : 18px; line-height: 50px;}
+.topinfo a {margin-left : 22px}
+
+.topwrap{ width : 1200px; margin :  0 auto;}
+.topwrap .BigTitle{ width : 101px; height : 53px; background:url(../images/logo.png) no-repeat; 0 0; font-size : 0; float : left; margin-top : 40px;}
+.topwrap .BigTitle a{width : 101px; height : 53px; display : block;}
+
+
+.gnblangmidbox {width : 919px; float : left;}
+
+.searchlangwrap { float : left; width : 240px; height : 20px; margin-top:17px; margin-left:661px;}
+
+/*검색창*/
+.search {position :relative;}
+.searchlangwrap .searchbox { float : left; width : 100px; position : relative;}
+.searchlangwrap .searchbox .searchText { width : 99px; position : absolute; top : 5px; right : 0;}
+.searchlangwrap .searchbox .searchBtn { width : 13px ; height : 13px; background:none; font-size : 0;position : absolute; top : 5px; right : 0;}
+
+.searchlangwrap .searchbox .searchBtn:before,
+.searchlangwrap .searchbox .searchBtn:after { content:''; }
+
+
+.searchlangwrap .searchbox .searchBtn:before{ width : 5px; height : 2px;  position : absolute; top : 9px; right : 0px; transform : rotate(945deg);background-color :#fff;}
+.searchlangwrap .searchbox .searchBtn:after{width : 6px; height : 6px; position : absolute; top : 0px; right : 2px; border : 2px solid #fff; border-radius : 15px; }
+
+
+
+
+
+/*언어*/
+.searchlangwrap .langbox { float : right; text-align: center; width : 110px; position : relative; }
+.searchlangwrap .langbox .langnote { }
+.searchlangwrap .langbox .langnote span{ display : block; font-size : 18px;  }
+.searchlangwrap .langbox .langnote span a{ background:url(../images/flag.png) no-repeat 0 -95px; display : block; height : 18px;  padding-left : 20px; line-height : 18px}
+
+.searchlangwrap .langbox .langulbox{ background-color : #f6f6f6;  padding: 0px 0 11px 10px ;position : absolute; width : 110px; top : 30px; left : 0; border:1px solid #afb4c3; z-index : 100;
+display :none;}
+
+.searchlangwrap .langbox .lang {  }
+.searchlangwrap .langbox .lang li { width : 100px; height : 18px;text-align: center; background:url(../images/flag.png) no-repeat; padding-left : 19px; font-size : 18px; margin-top : 10px;}
+.searchlangwrap .langbox .lang li a { color : #000923 ; display : block; color : #000923; height : 18px; line-height: 18px; }
+.searchlangwrap .langbox .lang li:nth-of-type(1){background-position : 0 -95px}
+.searchlangwrap .langbox .lang li:nth-of-type(2){background-position : 0 -76px}
+.searchlangwrap .langbox .lang li:nth-of-type(3){background-position : 0 -57px}
+.searchlangwrap .langbox .lang li:nth-of-type(4){background-position : 0 -38px}
+.searchlangwrap .langbox .lang li:nth-of-type(5){background-position : 0 -19px}
+.searchlangwrap .langbox .lang li:nth-of-type(6){background-position : 0 0}
+
+
+
+
+
+#gnb{float : left; width : 896px; margin-top : 40px; }
+/*1차메뉴*/
+#gnb .gnbwrap {position : relative;}
+#gnb .gnbdepbox {}
+#gnb .gnbdepbox > li {float : left;text-align: center; width : 160px; margin-right:24px; height : 37px;}
+#gnb .gnbdepbox > li a{display : block;}
+#gnb .gnbdepbox > li:nth-of-type(5) {margin:0;}
+
+
+.gnb2wrap {position : absolute; z-index : 99; top : 37px ;left : 0; display : none;}
+.gnb2in {background-color : #f6f6f6; border:1px solid #afb4c3; height : 433px;width :918px; position : relative; padding:40px 0px 40px 40px;}
+.gnb2in .gnb2box {float : left; width : 160px; height : 100%;  margin-right : 14px; }
+.gnb2in .gnb2box li {margin-bottom : 16px; line-height : 1.1; width : 122px;}
+.gnb2in .gnb2box a {color : #000923; font-size : 15px;}
+
+
+/*attractions*/
+.gnb2in .gnb2box:nth-of-type(4) li {background:url(../images/gnbani.png)no-repeat 0 0; height : 25px; ;margin-bottom : 24px; width :26px }
+
+.gnb2in .gnb2box:nth-of-type(4) li:nth-of-type(2) {background-position : 0 -24px}
+.gnb2in .gnb2box:nth-of-type(4) li:nth-of-type(3) {background-position : 0 -48px}
+.gnb2in .gnb2box:nth-of-type(4) li:nth-of-type(4) {background-position : 0 -70px}
+.gnb2in .gnb2box:nth-of-type(4) li:nth-of-type(5) {background-position : 0 -94px}
+
+.gnb2in .gnb2box:nth-of-type(4) li .attibox { padding-left : 35px; height : 25px; }
+
+
+/*conservation*/
+.gnb2in .gnb2box:nth-of-type(5) li {background:url(../images/gnbani.png)no-repeat 0 0; height : 25px; ;margin-bottom : 24px; width :26px }
+
+.gnb2in .gnb2box:nth-of-type(5) li:nth-of-type(1) {background-position : 0 -120px}
+.gnb2in .gnb2box:nth-of-type(5) li:nth-of-type(2) {background-position : 0 -143px}
+.gnb2in .gnb2box:nth-of-type(5) li:nth-of-type(3) {background-position : 0 -170px}
+.gnb2in .gnb2box:nth-of-type(5) li:nth-of-type(4) {background-position : 0 -190px}
+
+.gnb2in .gnb2box:nth-of-type(5) li .conservebox { padding-left : 35px; height : 25px; line-height : 25px; }
+.gnb2in .gnb2box:nth-of-type(5) li:nth-of-type(4) .conservebox { height : 25px; line-height : 16px; }
+
+
+
+
+.gnb2in .stcwrap {position : absolute; bottom : 40px; right : 40px; width : 270px; height : 35px}
+.gnb2in .stcwrap > div {height : 35px; width : 125px; background-color : #000923; border-radius: 50px; float : left; }
+.gnb2in .stcwrap > div.store {margin-right : 20px; }
+
+.gnb2in .stcwrap a {display : block; height : 35px; padding-left : 14px; }
+.gnb2in .stcwrap span {display : inline-block; }
+.gnb2in .stcwrap span.icon {background:url(../images/gnbcont.png) no-repeat 0 0; float : left; margin : 5px 0; }
+.gnb2in .stcwrap span.word { float : left;height : 35px;line-height: 36px }
+
+.gnb2in .stcwrap .store .icon {background-position :0 0; width : 25px;  height : 23px; margin-right : 16px;}
+.gnb2in .stcwrap .contact .icon {background-position :0px -24px; width : 25px;  height : 24px; margin-right : 8px; margin-left : -7px }
+
+
+
+
+/*2차메뉴*/
+
+
+
+
+.Time { width : 180px; float : left; background:url(../images/penbg.png) repeat-x; height :114px ;padding : 15px 26px; }
+.Time p { font-family: 'Fredoka One', cursive; font-size : 20px; height : 40px;}
+.Time p.hour { margin-top : 15px; height : 30px;}
+.Time p span { font-size : 23px;}
+

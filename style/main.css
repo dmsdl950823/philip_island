@@ -1,0 +1,229 @@
+@charset "utf-8";
+
+@import url(footer.css);
+@import url(reset.css);
+@import url(header.css);
+
+
+/*메인 이미지*/
+
+.VisualImgwrap:after { content:''; width : 100%; height : 100%; position : absolute; top : 0; left : 0; z-index:-1; background: url(../images/bunyip_tours_penguin_parade.jpg) no-repeat center -220px fixed; background-size : cover; opacity : 0.4}
+.VisualImgwrap { position : relative;   }
+
+
+.VisualImgwrap .notewrap{width : 1200px; margin: 0 auto ; height : 450px;}
+
+.VisualImgwrap .leftNote{width : 814px;font-family: 'Fredoka One', cursive;  margin-top : 120px;  float : left; }
+.VisualImgwrap .leftNote h3{font-size : 50px;  margin-bottom : 15px; }
+.VisualImgwrap .leftNote .experiencebox{font-size : 15px; width : 400px ; height : 46px; border : 5px solid #001056; border-radius : 10px; background-color : #fff; position : relative;}
+.VisualImgwrap .experiencebox a.experience{}
+.VisualImgwrap .experiencebox a span{color : #000923; line-height : 36px; margin-left : 20px}
+.VisualImgwrap .experiencebox .gobtn{background-color : #001056; width : 44px; height : 23px; border-radius : 50px;position : absolute ; top : 6px; right : 20px; font-size : 16px;}
+.VisualImgwrap .experiencebox .gobtn p{line-height : 23px; padding-left : 7px}
+
+/*우측 비디오*/
+.VisualImgwrap .rightvideo {float : left; width : 386px; text-align: right; margin-top : 210px} 
+.VisualImgwrap .rightvideo .videobox{font-size : 20px; line-height: 1.2; }
+.VisualImgwrap .rightvideo .videobox span{ font-size : 25px; color : #edccff; font-weight : 700}
+
+.rightvideo .videobox .vid{float: right; border-radius : 25px; overflow : hidden; transform : scale(1); background-color : #fff;}
+.rightvideo .videobox .vid *{ transition : all 0.2s ease}
+.rightvideo .videobox .videocont{display: block;}
+.rightvideo .videobox .videocont .video{position : relative; width : 203px;  height : 140px; opacity : 0.8 }
+.rightvideo .videobox .videocont .playbtn{ width : 66px ; height : 66px; background:url(../images/playbtn.png) no-repeat 0 0;position : absolute; top : 37px ;left :68px; }
+
+.rightvideo .videobox .vid:hover img{transform : scale(1.2); opacity : 0.7 }
+
+/*메인 이미지 E*/
+
+
+
+/*탐험 선택, 광고 */
+.chooseADwarp { height : 453px; width : 100%;  background-color : #f6f6f6; padding : 40px 0 ; position : relative;z-index : 1}
+.chooseADwarp:after { content:''; height : 453px; width : 100%; opacity : 0.05; background : url(../images/810%20%5BConverted%5D.png) 0 0; position : absolute; top : 0; left : 0; z-index : -1}
+.chooseADwarp a { color : #001056 }
+.chooseADwrap { width : 1200px;margin : 0 auto; }
+
+.choice { width : 692px; color : #001056; height : 350px; /*padding : 35px 38px 57px 37px ; */ margin-right :20px; float: left;}
+
+.choice .chobox{}
+.choice .chobox h4{ text-align: center; font-size : 36px;font-family: 'Fredoka One', cursive; float : left ; margin-bottom : 25px; height : 36px; width : 692px; margin-top : 35px}
+.choice .chobox .select{font-size : 30px; font-family: 'Fredoka One', cursive; color : #45559f; padding-left : 10px;float : left; height : 46px; line-height : 46px; margin-left : 37px}
+
+
+.choice .chobox .overlook{width : 326px ; height : 46px; border : 5px solid #001056; border-radius : 10px; background-color : #fff; position : relative; float:left; margin-left : 10px; font-size : 16px; }
+.choice .chobox .overlook .where a {display : block ; height : 36px; }
+.choice .chobox .overlook .where {line-height : 36px; margin-left : 20px;font-family: 'Fredoka One', cursive;}
+
+
+.choice .chobox .overlook ul{ border : 1px solid #d9d9d9; margin-top : -4px; display : none;}
+.choice .chobox .overlook ul li{ line-height : 36px; padding-left : 20px ; background-color : #f6f6f6 }
+.choice .chobox .overlook ul li a{font-family: 'Fredoka One', cursive; color : #000923; display : block; font-size : 13px}
+.choice .chobox .overlook ul li:hover { background-color : #ebedf4}
+
+.choice .chobox .overlook .gobtn{background-color : #001056; width : 44px; height : 23px; border-radius : 50px;position : absolute ; top : 6px; right : 20px; line-height : 23px;color : #fff;font-family: 'Fredoka One', cursive; font-size : 16px;}
+
+
+.choice .recombox{margin-top : 45px; float : left; margin-left : 40px ; }
+.choice .recombox h5 {font-family: 'Fredoka One', cursive; color : #001056; font-size : 30px; margin-bottom: 15px; height : 30px;}
+.choice .recombox p  {font-size : 15px; }
+
+.choice .recombox .recom{width : 310px; float : left; padding-left : 10px;}
+.choice .recombox .recom p {line-height : 30px; padding-left : 15px;}
+
+.choice .ticket{ width : 305px;float : left;  border-left : 2px solid #001056; padding-left  : 40px; height: 120px;}
+.choice .ticket p{ padding-left  : 20px; line-height: 18px;}
+
+
+/*광고*/
+.AD{float: left; height : 373px; width : 470px}
+
+.AD .divart{height : 373px; width : 470px; position : relative; }
+.AD .divart .adbox{}
+.AD .divart .adbox ul.ad{ position : relative;}
+.AD .divart .adbox ul li{ width : 470px ; height : 373px; position : absolute; display :none}
+.AD .divart .adbox ul li.auAD{ display: block}
+.AD .divart .adbox ul li a{}
+.AD .divart .adbox ul li img{ width : 470px}
+
+
+.AD .divart .adbtn {position : absolute; left : 150px; bottom : 13px; }
+.AD .divart .adbtn .adbtnul {}
+.AD .divart .adbtn .adbtnul li {display : inline-block; background-color : #fff; width : 12px ;height : 12px ; border-radius : 50%; margin-right : 11px; font-size : 0;}
+.AD .divart .adbtn .adbtnul li a{display : block; width : 12px ;height: 12px;   }
+.AD .divart .adbtn .adbtnul li.auto{background-color : #001a85;}
+/*탐험 선택, 광고 E*/
+
+
+
+/*소개지도*/
+.infopark {width : 1200px; margin : 0 auto; padding : 40px 0}
+.infopark h3 {font-size : 50px; text-align : center; font-family: 'Fredoka One', cursive;}
+
+.infopark .texbox {width : 794px; margin : 0 auto; height : 140px; text-align : center; margin-top : 20px; position : relative;}
+.infopark .texbox p {font-size : 20px; line-height : 28px}
+.infopark .texbox p .highlight{ color : #ffe63d;border-bottom: 1px dotted #ffe63d; padding-bottom: 1px; height: 23px; display:inline-block}
+
+.infopark .texbox .here {width : 155px; height : 79px; background: url(../images/add.png) no-repeat 0 0; padding : 25px 20px 20px 50px ;text-align: center; position : absolute; bottom : 0 ;right: -70px; transform :rotate(2deg); animation : here1 3s ease infinite }
+.infopark .texbox .here p { color : #000923; line-height : 14px; font-size : 15px }
+
+@keyframes here1{
+    0% {transform :rotate(2deg); }
+    50% {transform :rotate(6deg); }
+    55% {transform :rotate(2deg); }
+    60% {transform :rotate(6deg); }
+    65% {transform :rotate(2deg); }
+    70% {transform :rotate(6deg); }
+    100%{transform :rotate(2deg); }
+}
+
+
+
+.infopark .infobox {margin-top : 40px;}
+.infopark .infobox .optionbox {float : left}
+.infopark .infobox .optionbox ul.option {}
+
+
+
+.infopark .infobox .optionbox ul li { width : 300px; height : 80px; float : left; position : relative;}
+.infopark .infobox .optionbox ul li:nth-of-type(1) { background-color : #da5252}
+.infopark .infobox .optionbox ul li:nth-of-type(2) { background-color : #e8b11d}
+.infopark .infobox .optionbox ul li:nth-of-type(3) { background-color : #00a8e6}
+.infopark .infobox .optionbox ul li:nth-of-type(4) { background-color : #b640ba}
+.infopark .infobox .optionbox ul li a {font-size : 25px; font-family: 'Fredoka One', cursive; display: block; text-align : center; padding : 25px 0; z-index : 50}
+
+
+
+
+
+.infopark .infobox .locinfobox {width : 1200px; float : left;}
+.infopark .infobox .locinfobox .information{width : 600px; height : 409px; float : left;}
+.infopark .infobox .locinfobox .information ul.infoul{background-color : #fff; width : 600px; height : 409px; position : relative;}
+
+.infopark .infobox .locinfobox .information ul li{width : 600px; height : 409px;  padding-top : 220px; padding-left : 88px; position : absolute; top : 0; left : 0;display : none;}
+
+
+.infopark .infobox .locinfobox .information ul li:nth-of-type(1){background:url(../images/intro1.jpg) no-repeat 0 0;}
+.infopark .infobox .locinfobox .information ul li:nth-of-type(2){background:url(../images/intro2.jpg) no-repeat 0 0;}
+.infopark .infobox .locinfobox .information ul li:nth-of-type(3){background:url(../images/intro6.jpg) no-repeat 0 0;}
+.infopark .infobox .locinfobox .information ul li:nth-of-type(4){background:url(../images/intro4.jpg) no-repeat 0 0;}
+.infopark .infobox .locinfobox .information ul li:nth-of-type(5){background:url(../images/intro3.jpg) no-repeat 0 0;}
+.infopark .infobox .locinfobox .information ul li:nth-of-type(6){background:url(../images/intro5.jpg) no-repeat 0 0;}
+
+.infopark .infobox .locinfobox .information ul li .txtwrap{width :408px; }
+.infopark .infobox .locinfobox .information ul li p{color : #000923}
+.infopark .infobox .locinfobox .information ul li p.sidetit{font-size:30px;font-family: 'Fredoka One', cursive; margin-bottom : 25px; height : 25px}
+.infopark .infobox .locinfobox .information ul li p.sidecont{font-size : 18px; text-align: justify;line-height : 18px; margin-left : 3px}
+
+
+/*지도*/
+.infopark .infobox .location{width : 600px; height : 409px;position : relative; float : left; background:url(../images/map.jpg) no-repeat 0 0 }
+.infopark .infobox .location p{ width :33px; height : 50px; background:url(../images/maplo.png) no-repeat 0 0; position : absolute; cursor : pointer}
+
+.infopark .infobox .location .cow{background-position: -68px 0 ; top : 260px ; left:370px}
+.infopark .infobox .location .koal{background-position: -136px 0 ;top : 200px; left:300px}
+.infopark .infobox .location .seal{background-position: -102px 0 ;top : 100px ; left:270px}
+.infopark .infobox .location .wave{background-position: -34px 0 ;top : 190px ; left:190px}
+.infopark .infobox .location .pen{background-position: -0 0 ;top : 160px ; left:390px}
+
+
+.infopark .infobox .location .loc_infobox{ position : absolute ; top : 0 ; left : 0; width : 200px; height : 50px; background-color : #fafafa; border-radius : 10px;text-align: center; z-index: 50; border : 1px solid #a4aabe; padding : 9px;}
+.infopark .infobox .location .loc_infobox .loc a{  color : #000923; font-size : 13px; line-height : 1.2; display : inline-block }
+
+/*소개지도E*/
+
+
+
+/*연구,환경, 교육 */
+.moreInfo { height : 393px ; width : 100%; background-color : #634175}
+.moreInfo .moreInfobox { width : 1200px; margin : 0 auto; height : 393px ; padding : 40px 37px;}
+
+.moreInfo .outbox {width : 314px ;height : 314px; border : 4px solid #a674c0; float:left; margin-right : 92px; padding : 9px; position : relative; overflow : hidden;}
+.moreInfo .outbox:last-child {margin: 0px}
+.moreInfo .outbox .innerbox { width : 289px; height : 289px; border : 2px solid #dbbdec; padding : 42px}
+
+.moreInfo .morehead {height : 35px; margin-bottom : 15px }
+.moreInfo .morehead h5 {font-size : 25px; font-family: 'Fredoka One', cursive; height : 34px; width : 207px}
+.moreInfo .morehead h5,
+.moreInfo .morehead h5 .icon{ vertical-align: bottom;}
+.moreInfo .morehead h5 .icon{ display : inline-block ; width : 45px; height : 34px; background:url(../images/moreinfo_img.png) no-repeat  0 0 ; margin-right : 12px}
+.moreInfo .outbox:nth-of-type(1) .morehead h5 .icon{ width : 35px;}
+.moreInfo .outbox:nth-of-type(2) .morehead h5 .icon{ margin : 0; width : 39px;}
+
+.moreInfo .outbox:nth-of-type(1) h5 .icon{ background-position: -7px -68px}
+.moreInfo .outbox:nth-of-type(2) h5 .icon{ background-position: -5px -34px}
+.moreInfo .outbox:nth-of-type(3) h5 .icon{ background-position: 0px 0 }
+
+.moreInfo .cont {}
+.moreInfo .cont p { font-size : 15px ; text-align : justify; line-height : 18px}
+
+
+.moreInfo .outbox .hov{ width : 306px; height : 306px; position : absolute; top : 0 ; left : 0 }
+.moreInfo .outbox .hov * { transition : all 0.2s ease }
+
+.moreInfo .outbox .hov .hovtop{ width : 306px ; height : 138px;
+    background:linear-gradient(180deg,rgba(99,65,117,0.3),rgba(99,65,117,0)); 
+    background:url(../images/learnmore.png) repeat-x 0 0;
+    transform : translateY(-40px);opacity:0}
+.moreInfo .outbox .hov .hovbottom{width : 306px ; height : 138px; 
+        background:linear-gradient(0deg,rgba(99,65,117,0.3),rgba(99,65,117,0));
+        background:url(../images/learnmore2.png) repeat-x 0 0;
+        transform : translateY(40px); opacity:0}
+.moreInfo .outbox .hov span{ font-size : 30px; font-family: 'Fredoka One', cursive; height : 30px; display : block; text-align: center;transform : translateY(-20px); opacity : 0 }
+
+.moreInfo .outbox:hover .hov{ background-color: rgba(60,28,77,0.5) ; cursor : pointer }
+.moreInfo .outbox:hover .hov .hovtop{ transform : translateY(0px);opacity:1}
+.moreInfo .outbox:hover .hov .hovbottom{transform : translateY(0px); opacity:1}
+.moreInfo .outbox:hover .hov span{ transform : translateY(0px); opacity : 1 }
+
+/*연구,환경, 교육 E*/
+
+
+
+
+
+
+
+
+
+

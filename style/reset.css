@@ -1,0 +1,28 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Tajawal:400,800&display=swap');
+
+/*
+font-family: 'Fredoka One', cursive;
+font-family: 'Tajawal', sans-serif;
+*/
+
+.boxline {border : 1px solid red}
+
+body, div, header, p , a, img, h1, nav, ul, li, span, form, fieldset, legend, input, button, h2, h3, h4, br, article, section,h5,aside, footer {margin : 0; padding : 0; box-sizing : border-box;}
+
+body {background-color :#000923; color :#fff;font-family: 'Tajawal', sans-serif;}
+
+.skip, legend {width : 1px; height :1px; overflow : hidden; font-size : 0; line-height : 0; text-indent : -9999px;}
+
+input, button, img, fieldset {border : none;}
+ul{list-style : none;}
+a {text-decoration : none; color :#fff;}
+
+input {background-color : #000923}
+input[type="text"]{font-size : 13px; color : #fff; border-bottom : 1px solid #bbb;  }
+button {}
+
+section, article, aside, nav,footer, header {display : block;}
+
+.clearflo:after {content :''; clear : both; display : block;}

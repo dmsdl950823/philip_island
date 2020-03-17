@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+.bottom { height : 160px; width : 100%; }
+.bottom footer { width : 1200px; margin : 0 auto ; padding : 40px 0 }
+
+
+footer .logosns{width : 184px; height : 80px;float : left;}
+footer .logosns .bot_log{ width : 101px; height : 53px}
+footer .logosns .bot_log a{}
+
+footer .logosns .snsbox{height : 18px; width : 154px; }
+footer .logosns .snsbox a{ display : inline-block;background:url(../images/sns.png) no-repeat 0 0; font-size : 0; margin-right : 20px }
+footer .logosns .snsbox a.face{ width : 8px;height : 16px; background-position : 0 -2px}
+footer .logosns .snsbox a.inst{ width : 16px; height : 16px;  background-position : -9px -2px}
+footer .logosns .snsbox a.twit{ width : 17px;height : 14px;  background-position : -26px -4px}
+footer .logosns .snsbox a.you{ width : 16px;height : 18px; background-position : -44px 0px}
+
+
+footer .bottommenbox{ width : 306px; float : left; padding : 10px 0 }
+footer .bottommenbox ul.bot_men{}
+footer .bottommenbox ul li{ width : 130px; height : 40px;float :left; text-align : center; font-size : 18px; line-height: 40px}
+
+footer .institutionsbox{width : 710px; float : left; padding : 23px 0;  }
+footer .institutionsbox .other{ font-size : 20px; text-align : right; height : 20px; margin-bottom : 15px;}
+footer .institutionsbox ul.inst_ul{}
+footer .institutionsbox ul li {float : right; width : 130px; text-align: center;height : 18px;}
+footer .institutionsbox ul li a{color :#c4c4c4}
+    
+    
+    
+    
+    
